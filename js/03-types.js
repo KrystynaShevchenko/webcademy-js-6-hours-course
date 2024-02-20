@@ -32,7 +32,7 @@
 */
 
 // Оператор typeof
-const someName = 'Bob';
+const someName = "Bob";
 console.log(typeof someName);
 
 // BigInt
