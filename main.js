@@ -163,11 +163,77 @@
 // const result = summ(summ(15, 15), summ(20, 20));
 // console.log(result);
 //=====================================
+// function summ(a, b) {
+//   return a + b;
+// }
+
+// function diff(a, b) {
+//   return a - b;
+// }
+
+// function doSomething(func) {
+//   let x = 10;
+//   let y = 15;
+//   let result = func(x, y);
+
+//   console.log(result);
+// }
+
+// doSomething(summ);
+// doSomething(diff);
 //=====================================
+
+// =================== 5.3 Самовызывающаяся функция ===================
+
+// (function () {
+//   console.log("Hi my dear!");
+// })();
+
+// (function sayBye() {
+//   console.log("Bye my friend!");
+// })();
 //=====================================
+// (function summ(a, b) {
+//   console.log(a + b);
+// })(10, 15);
 //=====================================
+
+// =================== 5.3 Стрелочные функции ===================
+
+// function sayHi1(name) {
+//   console.log(`Hi ${name}! Nice to see you!`);
+// }
+
+// sayHi1("Sohaib");
 //=====================================
+
+// const sayHi2 = (name) => {
+//   console.log(`Hi ${name}! Nice to see you!`);
+// };
+
+// sayHi2("Kristina");
 //=====================================
+
+// const sayHi3 = (name) => console.log(`Hi ${name}! Nice to see you!`);
+
+// sayHi3("Nika");
+//=====================================
+
+// =================== 6. Массивы ===================
+
+// const autoBrand1 = "Bmw";
+// const autoBrand2 = "Toyota";
+// const autoBrand3 = "Audi";
+// const autoBrand4 = "Mazda";
+
+// const autoBrands = ["Bmw", "Toyota", "Audi", "Mazda"];
+
+// console.log(autoBrands);
+// console.log(autoBrands[3]);
+// console.log(autoBrands.length);
+//=====================================
+
+// =================== 7. Методы массивов ===================
 //=====================================
 //=====================================
 //=====================================
